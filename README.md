@@ -11,4 +11,4 @@ How to use.
 ```
 
 
-![my image](ribbon.png)
+![ribbon sample](http://yotsuba-d.com/github/3d-ribbon/ribbon.png "Ribbon sample")
