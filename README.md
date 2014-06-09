@@ -1,6 +1,6 @@
 CSS-3D-Ribbon
 =============
-CSSでつくる3Dリボン
+CSS 3D Ribbon
 Sass(SCSS)
 
 How to use.
