@@ -11,4 +11,4 @@ How to use.
 ```
 
 
-![ribbon sample](http://yotsuba-d.com/github/3d-ribbon/ribbon.png "Ribbon sample")
+![ribbon sample](https://github.com/ytbdken/CSS-3D-Ribbon/blob/master/ribbon.png "Ribbon sample")
