@@ -1,0 +1,104 @@
+$ribbon-color:#ef2c12;
+$ribbon-color2:#426f00;
+.ribbon {
+  font-size: 20px;
+  font-weight: lighter !important;
+  position: relative;
+  background: $ribbon-color;
+  color: #fff;
+  top: -40px;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 0 2em 1em 2em;
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    bottom: -0.7em;
+    border: 1.5em solid darken($ribbon-color,5%);
+    z-index: -1;
+  }
+  &:before {
+    left: -3em;
+    margin-left: 1em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+  }
+  &:after {
+    right: -3em;
+    margin-right: 1em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+  }
+  .ribbon-content {
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      border-style: solid;
+      border-color: darken($ribbon-color,15%) transparent transparent transparent;
+      bottom: -0.7em;
+    }
+    &:before {
+      left: 0;
+      border-width: 0.7em 0 0 1em;
+    }
+    &:after {
+      right: 0;
+      border-width: 0.7em 1em 0 0;
+    }
+  }
+}
+
+.non-semantic-protector {
+  position: relative;
+  z-index: 1;
+}
+
+.ribbon2 {
+  font-size: 20px;
+  font-weight: lighter !important;
+  position: relative;
+  background: $ribbon-color2;
+  color: #fff;
+  top: -40px;
+  text-align: center;
+  padding: 1em 2em;
+  margin: 0 2em 1em 2em;
+  &:before, &:after {
+    content: "";
+    position: absolute;
+    bottom: -0.7em;
+    border: 1.5em solid darken($ribbon-color2,5%);
+    z-index: -1;
+  }
+  &:before {
+    left: -3em;
+    margin-left: 1em;
+    border-right-width: 1.5em;
+    border-left-color: transparent;
+  }
+  &:after {
+    right: -3em;
+    margin-right: 1em;
+    border-left-width: 1.5em;
+    border-right-color: transparent;
+  }
+  .ribbon-content2 {
+    &:before, &:after {
+      content: "";
+      position: absolute;
+      display: block;
+      border-style: solid;
+      border-color: darken($ribbon-color2,15%) transparent transparent transparent;
+      bottom: -0.7em;
+    }
+    &:before {
+      left: 0;
+      border-width: 0.7em 0 0 1em;
+    }
+    &:after {
+      right: 0;
+      border-width: 0.7em 1em 0 0;
+    }
+  }
+}
