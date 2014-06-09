@@ -10,9 +10,6 @@ How to use.
 </h3>
 
 
-<h3 class="ribbon2">
-<span class="ribbon-content2">example text</span>
-</h3>
 ```
 
 
