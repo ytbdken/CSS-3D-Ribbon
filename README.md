@@ -1,11 +1,14 @@
 CSS-3D-Ribbon
 =============
 CSSでつくる3Dリボン
-SCSS形式
+Sass(SCSS)
 
-使う時はこんな感じで。
+How to use.
 ```
 <h3 class="ribbon">
-<span class="ribbon-content">最近のお知らせ</span>
+<span class="ribbon-content">Information</span>
 </h3>
 ```
+
+
+![my image](ribbon.png)
