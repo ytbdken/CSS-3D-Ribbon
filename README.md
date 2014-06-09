@@ -14,4 +14,5 @@ CSS & Sass(SCSS)
 </h3>
 ```
 ---
-*responsive
+responsive
+IE8+
